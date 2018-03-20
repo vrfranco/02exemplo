@@ -160,7 +160,6 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        'Dusterio\AwsWorker\Integrations\LaravelServiceProvider',
         'Rollbar\Laravel\RollbarServiceProvider',
 
     ],
